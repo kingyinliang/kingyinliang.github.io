@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>测试策略 | kingyingliang</title>
+    <meta name="description" content="kingyingliang的个人博客">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.2868158a.css" as="style"><link rel="preload" href="/assets/js/app.8b298d71.js" as="script"><link rel="preload" href="/assets/js/3.1047f7fc.js" as="script"><link rel="preload" href="/assets/js/1.e9036eeb.js" as="script"><link rel="preload" href="/assets/js/30.9b5791ce.js" as="script"><link rel="prefetch" href="/assets/js/10.faea7ed6.js"><link rel="prefetch" href="/assets/js/11.a1eb7cb1.js"><link rel="prefetch" href="/assets/js/12.a94480e8.js"><link rel="prefetch" href="/assets/js/13.78aa3210.js"><link rel="prefetch" href="/assets/js/14.873f66c8.js"><link rel="prefetch" href="/assets/js/15.90e4a351.js"><link rel="prefetch" href="/assets/js/16.e9797b58.js"><link rel="prefetch" href="/assets/js/17.ae73df78.js"><link rel="prefetch" href="/assets/js/18.63201470.js"><link rel="prefetch" href="/assets/js/19.74ca95e4.js"><link rel="prefetch" href="/assets/js/20.ca975c1c.js"><link rel="prefetch" href="/assets/js/21.03ae9a37.js"><link rel="prefetch" href="/assets/js/22.30d540c3.js"><link rel="prefetch" href="/assets/js/23.4c7ee792.js"><link rel="prefetch" href="/assets/js/24.c286385e.js"><link rel="prefetch" href="/assets/js/25.3dcf4fb6.js"><link rel="prefetch" href="/assets/js/26.136db144.js"><link rel="prefetch" href="/assets/js/27.7f89bba4.js"><link rel="prefetch" href="/assets/js/28.5f2690f1.js"><link rel="prefetch" href="/assets/js/29.e455dd30.js"><link rel="prefetch" href="/assets/js/31.8bdbfc59.js"><link rel="prefetch" href="/assets/js/32.c6d259c7.js"><link rel="prefetch" href="/assets/js/33.a52d22d8.js"><link rel="prefetch" href="/assets/js/34.4c6deef9.js"><link rel="prefetch" href="/assets/js/35.b974d0f2.js"><link rel="prefetch" href="/assets/js/36.75dbacb4.js"><link rel="prefetch" href="/assets/js/4.42ba4794.js"><link rel="prefetch" href="/assets/js/5.903262c0.js"><link rel="prefetch" href="/assets/js/6.029a538f.js"><link rel="prefetch" href="/assets/js/7.43e76bc3.js"><link rel="prefetch" href="/assets/js/8.cdc6e064.js"><link rel="prefetch" href="/assets/js/9.21bfb851.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2868158a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/favicon.png" alt="kingyingliang" class="logo"> <span class="site-name">kingyingliang</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/standard/HTML.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/standard/CSS.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/standard/JS.html" class="nav-link"><i class="iconfont undefined"></i>
+  JS
+</a></li><li class="dropdown-subitem"><a href="/standard/GIT.html" class="nav-link"><i class="iconfont undefined"></i>
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/standard/TEST.html" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/standard/workflow.html" class="nav-link"><i class="iconfont undefined"></i>
+  工作流
+</a></li><li class="dropdown-subitem"><a href="/standard/wepy.html" class="nav-link"><i class="iconfont undefined"></i>
+  小程序
+</a></li></ul></li><li class="dropdown-item"><h4>技术</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Technology/Nuxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nuxt
+</a></li><li class="dropdown-subitem"><a href="/Technology/Nesxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nesxt微服务
+</a></li><li class="dropdown-subitem"><a href="/Technology/Node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node
+</a></li><li class="dropdown-subitem"><a href="/Technology/Koa/Koa.html" class="nav-link"><i class="iconfont undefined"></i>
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/Technology/React/React.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-subitem"><a href="/Technology/Express/Express.html" class="nav-link"><i class="iconfont undefined"></i>
+  Express
+</a></li><li class="dropdown-subitem"><a href="/Technology/Electron/Electron.html" class="nav-link"><i class="iconfont undefined"></i>
+  Electron
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      读书会
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/readingParty/reconsitution/" class="nav-link"><i class="iconfont undefined"></i>
+  重构
+</a></li><li class="dropdown-item"><!----> <a href="/readingParty/" class="nav-link"><i class="iconfont undefined"></i>
+  其他
+</a></li></ul></div></div><div class="nav-item"><a href="/share/" class="nav-link"><i class="iconfont reco-other"></i>
+  分享
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-three"></i>
+      其他
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/category/Tenchnology.html" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/kingyinliang" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/standard/HTML.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/standard/CSS.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/standard/JS.html" class="nav-link"><i class="iconfont undefined"></i>
+  JS
+</a></li><li class="dropdown-subitem"><a href="/standard/GIT.html" class="nav-link"><i class="iconfont undefined"></i>
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/standard/TEST.html" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/standard/workflow.html" class="nav-link"><i class="iconfont undefined"></i>
+  工作流
+</a></li><li class="dropdown-subitem"><a href="/standard/wepy.html" class="nav-link"><i class="iconfont undefined"></i>
+  小程序
+</a></li></ul></li><li class="dropdown-item"><h4>技术</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Technology/Nuxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nuxt
+</a></li><li class="dropdown-subitem"><a href="/Technology/Nesxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nesxt微服务
+</a></li><li class="dropdown-subitem"><a href="/Technology/Node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node
+</a></li><li class="dropdown-subitem"><a href="/Technology/Koa/Koa.html" class="nav-link"><i class="iconfont undefined"></i>
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/Technology/React/React.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-subitem"><a href="/Technology/Express/Express.html" class="nav-link"><i class="iconfont undefined"></i>
+  Express
+</a></li><li class="dropdown-subitem"><a href="/Technology/Electron/Electron.html" class="nav-link"><i class="iconfont undefined"></i>
+  Electron
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      读书会
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/readingParty/reconsitution/" class="nav-link"><i class="iconfont undefined"></i>
+  重构
+</a></li><li class="dropdown-item"><!----> <a href="/readingParty/" class="nav-link"><i class="iconfont undefined"></i>
+  其他
+</a></li></ul></div></div><div class="nav-item"><a href="/share/" class="nav-link"><i class="iconfont reco-other"></i>
+  分享
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-three"></i>
+      其他
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/category/Tenchnology.html" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/kingyinliang" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/standard/HTML.html" class="sidebar-link">HTML</a></li><li><a href="/standard/CSS.html" class="sidebar-link">CSS</a></li><li><a href="/standard/JS.html" class="sidebar-link">JS</a></li><li><a href="/standard/GIT.html" class="sidebar-link">git</a></li><li><a href="/standard/TEST.html" class="active sidebar-link">测试策略</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/standard/TEST.html#单元测试" class="sidebar-link">单元测试</a></li><li class="sidebar-sub-header"><a href="/standard/TEST.html#jest-单元测试" class="sidebar-link">Jest 单元测试</a></li><li class="sidebar-sub-header"><a href="/standard/TEST.html#bdd-测试" class="sidebar-link">BDD 测试</a></li></ul></li><li><a href="/standard/workflow.html" class="sidebar-link">工作流</a></li><li><a href="/standard/wepy.html" class="sidebar-link">小程序</a></li><li><a href="/standard/release.html" class="sidebar-link">发布规范</a></li><li><a href="/standard/npm.html" class="sidebar-link">NPM</a></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>测试策略</h1> <hr> <div data-v-cf5504f4><i class="iconfont reco-account" data-v-cf5504f4><span data-v-cf5504f4>kingyinliang</span></i> <i class="iconfont reco-date" data-v-cf5504f4><span data-v-cf5504f4>2018-12-1</span></i> <!----> <i class="iconfont reco-tag tags" data-v-cf5504f4><span class="tag-item" data-v-cf5504f4>
+      test
+    </span><span class="tag-item" data-v-cf5504f4>
+      单元测试
+    </span><span class="tag-item" data-v-cf5504f4>
+      BDD
+    </span><span class="tag-item" data-v-cf5504f4>
+      TDD
+    </span><span class="tag-item" data-v-cf5504f4>
+      JEST
+    </span></i></div></div> <div class="content__default"><h1 id="测试策略"><a href="#测试策略" aria-hidden="true" class="header-anchor">#</a> 测试策略</h1> <h5 id="敏捷项目下的"><a href="#敏捷项目下的" aria-hidden="true" class="header-anchor">#</a> 敏捷项目下的</h5> <p>测试策略推荐在项目刚启动的时候制定 (产品需求范围，技术架构和交付计划大致确认的情况)，指导项目的测试活动和方法。<br>
+讯息内容</p> <ul><li>从Business了解到产品愿景，产品发展蓝图和业务流程 - 涉及需求分析和确定测试目标等活动</li> <li>从Project Manager了解到交付计划，交付范围 - 涉及确定测试类型、测试方法、测试阶段和测试重点等活动</li> <li>从Tech Lead了解到技术框架 - 涉及确定集成测试、自动化测试语言、工具和框架选型等活动</li></ul> <p><a data-fancybox="" title="TEST" href="/standard/TEST/TEST1.jpg"><img src="/standard/TEST/TEST1.jpg" alt="TEST.png" title="TEST"></a></p> <h4 id="tdd（test-driven-development，测试驱动开发）"><a href="#tdd（test-driven-development，测试驱动开发）" aria-hidden="true" class="header-anchor">#</a> TDD（Test - Driven Development，测试驱动开发）</h4> <p>节奏是红 - 绿 - 重构，如下图
+<a data-fancybox="" title="TEST" href="/standard/TEST/TEST2.jpg"><img src="/standard/TEST/TEST2.jpg" alt="TEST.png" title="TEST"></a></p> <ul><li>思路：先写测试再开发程序，通过测试来推动整个开发的进行。<br>
+思维：
+<ol><li>单元测试的首要目的不是为了能够编写出大覆盖率的全部通过的测试代码，而是需要从使用者(调用者)的角度出发，尝试函数逻辑的各种可能性，进而辅助性增强代码质量。</li> <li>测试是手段而不是目的。测试的主要目的不是证明代码正确，而是帮助发现错误，包括低级的错误。</li> <li>测试要快。快速运行、快速编写。</li> <li>测试代码保持简洁。</li> <li>不会忽略失败的测试。一旦团队开始接受 1 个测试的构建失败，那么他们渐渐地适应 2、3、4 或者更多的失败。在这种情况下，测试集就不再起作用。别轻易放过失败。</li></ol></li> <li>过程：
+<ol><li>需求分析，思考实现。考虑如何“使用”产品代码，是一个实例方法还是一个类方法，是从构造函数传参还是从方法调用传参，方法的命名，返回值等。这时其实就是在做设计，而且设计以代码来体现。此时测试为红</li> <li>实现代码让测试为”绿灯“</li> <li>重构，然后重复测试</li></ol></li></ul> <p>最终符合所有要求即：</p> <ul><li>每个概念都被清晰的表达</li> <li>代码中无自我重复</li> <li>没有多余的东西</li> <li>通过测试</li></ul> <h5 id="代码级测试"><a href="#代码级测试" aria-hidden="true" class="header-anchor">#</a> 代码级测试</h5> <p>(人工静态方法) Peer review -  二次把关，发现错误。<br>
+(自动静态方法) ESLint、SonarLint - 主要的手段是代码静态扫描，可以发现语法特征错误、边界行为特征错误和经验特征错误这三类“有特征”的错误；<br>
+(人工动态方法) 单元测试 - 是发现算法错误和部分算法错误，这两类“无特征”的错误；</p> <h2 id="单元测试"><a href="#单元测试" aria-hidden="true" class="header-anchor">#</a> 单元测试</h2> <p>原理：用驱动代码去调用被测函数，并根据代码的功能逻辑选择必要的输入数据的组合，然后验证执行被测函数后得到的结果是否符合预期。</p> <h4 id="什么是单元测试？"><a href="#什么是单元测试？" aria-hidden="true" class="header-anchor">#</a> 什么是单元测试？</h4> <ul><li>单元测试为验证我们的代码是否可以按预期工作的手段。</li> <li>单元测试特指被测试对象为程序中最小组成单元的测试。最小组成单元可以是一个函数、一个类等等。</li></ul> <h4 id="单元测试的意义"><a href="#单元测试的意义" aria-hidden="true" class="header-anchor">#</a> 单元测试的意义</h4> <ol><li>TDD（测试驱动开发） 被证明是有效的软件编写原则，它能覆盖更多的功能接口。</li> <li>快速反馈你的功能输出，验证你的想法。</li> <li>保证代码重构的安全性，没有一成不变的代码，测试用例能给你多变的代码结构一个定心丸。</li> <li>易于测试的代码，说明是一个好的设计。做单元测试之前，肯定要实例化一个东西，假如这个东西有很多依赖的话，这个测试建造过程将会非常耗时，会影响你的测试效率，怎么办呢？要依赖分离，一个类尽量保证功能单一，比如视图与功能分离，这样的话，代码也便于维护和理解。</li></ol> <h4 id="单元测试的限制"><a href="#单元测试的限制" aria-hidden="true" class="header-anchor">#</a> 单元测试的限制</h4> <ol><li>占用开发人员的时间。但测试实属开发人员的工作一环，不应有多占时间的想法，只是现在回归正途。</li> <li>单元测试覆盖率与代码质量没有必然的联系。更多的是工程师的素质提升。</li> <li>般情况下，单元测试的代码量往往大于要测试的代码量，一般情况会是 1-2 倍</li></ol> <h4 id="何时编写单元测试"><a href="#何时编写单元测试" aria-hidden="true" class="header-anchor">#</a> 何时编写单元测试</h4> <ol><li>开发过程中，单元测试应该来测试那些可能会出错的地方，或是那些边界情况。</li> <li>维护过程中，单元测试应该围绕着 bug 进行，每个 bug 都应该编写响应的单元测试。从而保证同一个 bug 不会出现第二次。</li></ol> <h4 id="单元测试过渡的作法与观念"><a href="#单元测试过渡的作法与观念" aria-hidden="true" class="header-anchor">#</a> 单元测试过渡的作法与观念</h4> <ol><li>优先对稳定的功能（比如一些公用组件）和核心流程编写单元测试。</li> <li>如果项目里充斥着颗粒度低，方法间互相耦合的代码，会发现无法进行单元测试。要么重构已有代码，要么放弃单元测试寻求其他测试方法，比如人工测试，e2e 测试(後面篇幅有介紹)。</li> <li>前端是一个非常复杂的测试环境，单元测试只能对功能每一个单元进行测试，对于一些依赖 api 的数据一般只能 mock，无法真正的模拟用户实际的使用场景。对于这种情况，建议采用其他测试方法，比如人工测试、e2e 测试。这也是为何我们要多做 e2e 测试。</li></ol> <p>以 Vue 开发的项目来说，我们要测试功能型组件、vue插件、二次封装的库。</p> <h4 id="单元测试思维"><a href="#单元测试思维" aria-hidden="true" class="header-anchor">#</a> 单元测试思维</h4> <ol><li>单元测试没有标准答案。</li> <li>软件的质量不是测试出来的，而是设计和维护出来的。</li> <li>粒度是多少，不重要，重要的是你软件应该怎么做，怎么测试。</li> <li>先写测试，后写功能。</li></ol> <h4 id="一个单元测框架框架含四部分"><a href="#一个单元测框架框架含四部分" aria-hidden="true" class="header-anchor">#</a> 一个单元测框架框架含四部分</h4> <ul><li>测试运行器 Test Runner (可使用 edp-test, karma）</li> <li>测试框架 Testing Framework (可使用 jasmine, mocha, qunit, Jest）</li> <li>断言库 Assertion library:  (可使用 expect.js, should, chai,)</li> <li>覆盖率 Coverage library: (可使用 istanbul)</li></ul> <h4 id="如何写单元测试用例"><a href="#如何写单元测试用例" aria-hidden="true" class="header-anchor">#</a> 如何写单元测试用例</h4> <ol><li>测试代码时，只考虑测试，不考虑内部实现</li> <li>数据尽量模拟现实，越靠近现实越好</li> <li>充分考虑数据的边界条件</li> <li>对重点、复杂、核心代码，重点测试</li> <li>利用 AOP (beforeEach、afterEach), 减少测试代码数量，避免无用功能</li> <li>测试、功能开发相结合，有利于设计和代码重构
+<a href="https://github.com/yangyubo/zh-unit-testing-guidelines" target="_blank" rel="noopener noreferrer">单元测试 27 条准则<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ol> <h4 id="单元测试编写步骤"><a href="#单元测试编写步骤" aria-hidden="true" class="header-anchor">#</a> 单元测试编写步骤</h4> <h5 id="基本测试脚本"><a href="#基本测试脚本" aria-hidden="true" class="header-anchor">#</a> 基本测试脚本</h5> <ul><li>describe 是&quot;测试套件&quot;（test suite），表示一组相关的测试。它是一个函数，第一个参数是测试套件的名称（&quot;加法函数的测试&quot;），第二个参数是一个实际执行的函数。</li> <li>test 是&quot;测试用例&quot;（test case），表示一个单独的测试，是测试的最小单位。它也是一个函数，第一个参数是测试用例的名称，第二个参数是一个实际执行的函数。所有的测试用例（test 块）都应该含有一句或多句的断言。</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'HelloWorld.vue'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+	<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'should render correct contents'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+		<span class="token comment">// 断言库</span>
+		<span class="token function">expect</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">.</span>to<span class="token punctuation">.</span><span class="token function">equal</span><span class="token punctuation">(</span><span class="token string">'Welcome to Your Vue.js App'</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h5 id="一组单元测试包含"><a href="#一组单元测试包含" aria-hidden="true" class="header-anchor">#</a> 一组单元测试包含</h5> <ul><li>准备阶段：构造参数，创建 spy(监控对象) 等</li> <li>执行阶段：用构造好的参数执行被测试代码</li> <li>断言阶段：用实际得到的结果与期望的结果比较，以判断该测试是否正常</li> <li>清理阶段：清理准备阶段对外部环境的影响，移除在准备阶段创建的 spy 等</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'Addition'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'knows that 2 and 2 make 4'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> val1 <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment">// 准备阶段</span>
+        <span class="token keyword">const</span> val2 <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment">// 准备阶段</span>
+        <span class="token keyword">const</span> result <span class="token operator">=</span> val1 <span class="token operator">+</span> val2<span class="token punctuation">;</span> <span class="token comment">// 执行阶段</span>
+        <span class="token keyword">const</span> expectedResult <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
+        <span class="token function">expect</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span>expectedResult<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 断言阶段</span>
+        <span class="token operator">...</span><span class="token punctuation">.</span>  <span class="token comment">// 清理阶段，如有需要清理，最后做清理动作</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h5 id="单元测试的难点"><a href="#单元测试的难点" aria-hidden="true" class="header-anchor">#</a> 单元测试的难点</h5> <p>单元测试无非就是用驱动代码去调用被测函数，并根据代码的功能逻辑选择必要的输入数据的组合，然后验证执行被测函数后得到的结果是否符合预期。但有以下难点</p> <ol><li>单元测试用例“输入参数”的复杂性；
+<ul><li>被测试函数的输入参数</li> <li>被测试函数内部需要读取的全局静态变量</li> <li>被测试函数内部需要读取的类成员变量</li> <li>函数内部调用子函数获得的数据</li> <li>函数内部调用子函数改写的数据</li> <li>嵌入式系统中，在中断调用中改写的数据</li></ul></li> <li>单+ 元测试用例“预期输出”的复杂性；
+<ul><li>被测函数的返回值</li> <li>被测函数的输出参数</li> <li>被测函数所改写的成员变量和全局变量</li> <li>被测函数中进行的文件更新、数据库更新、消息队列更新等</li> <li>关联依赖的代码不可用。</li></ul></li></ol> <h2 id="jest-单元测试"><a href="#jest-单元测试" aria-hidden="true" class="header-anchor">#</a> Jest 单元测试</h2> <p>Jest 集成了所需的测试功能，如</p> <ul><li>可取代 Karma + Mocha + sinon chai + phantomjs + 一个用于测试的浏览器环境</li> <li>内置强大的断言与 mock 功能</li> <li>内置测试覆盖率统计功能</li> <li>内置 Snapshot 机制</li></ul> <h4 id="安装"><a href="#安装" aria-hidden="true" class="header-anchor">#</a> 安装</h4> <div class="language-text line-numbers-mode"><pre class="language-text"><code>npm install jest --dev-save
+or
+yarn add jest --dev
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;scripts&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;test&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;jest&quot;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="文档架构"><a href="#文档架构" aria-hidden="true" class="header-anchor">#</a> 文档架构</h4> <p><img src="/standard/TEST/TEST3.jpg" alt="TEST.png" title="TEST"></p> <h4 id="jest-conf-js-设定"><a href="#jest-conf-js-设定" aria-hidden="true" class="header-anchor">#</a> jest.conf.js 设定</h4> <div class="language-js line-numbers-mode"><pre class="language-js"><code>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+ 
+ 
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  verbose<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// 用于显示每个测试用例的通过与否</span>
+  rootDir<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'../../'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  moduleFileExtensions<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'js'</span><span class="token punctuation">,</span> <span class="token string">'json'</span><span class="token punctuation">,</span> <span class="token string">'vue'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  moduleNameMapper<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'\\.(css|styl|less|sass|scss)$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/test/unit/styleMock.js'</span><span class="token punctuation">,</span>
+    <span class="token string">'^@/(.*)$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/src/$1'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  testURL<span class="token punctuation">:</span> <span class="token string">'http://localhost/'</span><span class="token punctuation">,</span> <span class="token comment">// 避免 SecurityError: localStorage is not available for opaque origins 错误</span>
+  transform<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/test/unit/assets.transform.js'</span><span class="token punctuation">,</span>
+    <span class="token string">'^.+\\.js$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/node_modules/babel-jest'</span><span class="token punctuation">,</span>
+    <span class="token string">'.*\\.(vue)$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/node_modules/vue-jest'</span><span class="token punctuation">,</span>
+    <span class="token string">'\\.(css|styl|less|sass|scss)$'</span><span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/test/unit/styleMock.js'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  testPathIgnorePatterns<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'&lt;rootDir&gt;/test/e2e'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  snapshotSerializers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'&lt;rootDir&gt;/node_modules/jest-serializer-vue'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  setupFiles<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'&lt;rootDir&gt;/test/unit/setup'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// mapCoverage: true, // 移除,不再支援</span>
+  <span class="token comment">// 开启默认格式的测试覆盖率报告</span>
+  collectCoverage<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  coverageDirectory<span class="token punctuation">:</span> <span class="token string">'&lt;rootDir&gt;/test/unit/coverage'</span><span class="token punctuation">,</span>
+  <span class="token comment">// 定义需要收集测试覆盖率信息的文件</span>
+  collectCoverageFrom<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token string">'src/**/*.{js,vue}'</span><span class="token punctuation">,</span>
+    <span class="token string">'!src/main.js'</span><span class="token punctuation">,</span>
+    <span class="token string">'!src/router/index.js'</span><span class="token punctuation">,</span>
+    <span class="token string">'!**/node_modules/**'</span><span class="token punctuation">,</span>
+    <span class="token string">'!**/node_modules/**'</span><span class="token punctuation">,</span>
+    <span class="token string">'!src/App.vue'</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  coverageReporters<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token string">'lcov'</span><span class="token punctuation">,</span> <span class="token comment">// 会生成lcov测试结果以及HTML格式的漂亮的测试覆盖率报告</span>
+    <span class="token string">'text'</span> <span class="token operator">/</span><span class="token operator">/</span> 会在命令行界面输出简单的测试报告
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br></div></div><h5 id="可能遇见的问题"><a href="#可能遇见的问题" aria-hidden="true" class="header-anchor">#</a> 可能遇见的问题:</h5> <p><img src="/standard/TEST/TEST4.jpg" alt="TEST.png" title="TEST">
+解法:<br>
+Jest 中 testURL 的默认值是 about:blank，在 jsdom 环境下运行会报错，设置了 testURL 为一个有效的 URL 后能够避免这个问题，如：http://localhost。</p> <h4 id="简单测试范例"><a href="#简单测试范例" aria-hidden="true" class="header-anchor">#</a> 简单测试范例</h4> <p>对照问题</p> <ol><li>被测试的对象是什么: + 运算符</li> <li>要测试该对象的什么功能： 2 + 2 = 4</li> <li>实际得到的结果：result</li> <li>期望的结果: expectedResult</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'Addition'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'knows that 2 and 2 make 4'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">expect</span><span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>测试脚本里面应该包括一个或多个 describe 块，每个 describe 块应该包括一个或多个 test 块。<br>
+describe 块称为&quot;测试套件&quot;（test suite），表示一组相关的测试，给测试用例分组，方便管理。它是一个函数，第一个参数是测试套件的名称（&quot;加法函数的测试&quot;），第二个参数是一个实际执行的函数。</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'test testObject'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">beforeAll</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 预处理操作</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'is foo'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">expect</span><span class="token punctuation">(</span>testObject<span class="token punctuation">.</span>foo<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeTruthy</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'is not bar'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token function">expect</span><span class="token punctuation">(</span>testObject<span class="token punctuation">.</span>bar<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeFalsy</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token function">afterAll</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 后处理操作</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>对测试文件中所有的用例进行统一的预处理，可以使用 beforeAll() 函数；而如果想在每个用例开始前进行都预处理，则可使用 beforeEach() 函数。至于后处理，也有对应的 afterAll() 和 afterEach() 函数。<br> <a href="https://facebook.github.io/jest/docs/en/expect.html#methods" target="_blank" rel="noopener noreferrer">详细断言文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br> <a href="https://jestjs.io/docs/en/expect.html#methods" target="_blank" rel="noopener noreferrer">Jest<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="开始使用"><a href="#开始使用" aria-hidden="true" class="header-anchor">#</a> 开始使用</h4> <p><img src="/standard/TEST/TEST5.jpg" alt="TEST.png" title="TEST">
+Jest 会自动找到项目中所有使用 .spec.js 或 .test.js 文件命名的测试文件并执行，<br>
+测试文件时遵循的命名规范：测试文件的文件名 = 被测试模块名 + .test.js。</p> <h5 id="在-unit-specs-functions-test-js-文件中创建测试用例"><a href="#在-unit-specs-functions-test-js-文件中创建测试用例" aria-hidden="true" class="header-anchor">#</a> 在 unit/specs/functions.test.js 文件中创建测试用例</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> functions <span class="token keyword">from</span> <span class="token string">'../src/functions'</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'sum(2 + 2) 等于 4'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h5 id="在-src-components-functions-js-中创建被测试的模块"><a href="#在-src-components-functions-js-中创建被测试的模块" aria-hidden="true" class="header-anchor">#</a> 在 src/components/functions.js 中创建被测试的模块</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token function">sum</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h5 id="运行-npm-run-test-jest-会在-shell-中打印出以下消息"><a href="#运行-npm-run-test-jest-会在-shell-中打印出以下消息" aria-hidden="true" class="header-anchor">#</a> 运行 npm run test, Jest 会在 shell 中打印出以下消息</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>PASS test/functions.test.js
+√ sum(2 + 2) 等于 4 (7ms)
+ 
+Test Suites: 1 passed, 1 total
+Tests: 1 passed, 1 total
+Snapshots: 0 total
+Time: 4.8s
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h5 id="常用的几种匹配器"><a href="#常用的几种匹配器" aria-hidden="true" class="header-anchor">#</a> 常用的几种匹配器</h5> <p>.not 测试结果不等于某个值的情况</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">//functions.test.js</span>
+<span class="token keyword">import</span> functions <span class="token keyword">from</span> <span class="token string">'../src/functions'</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'sum(2, 2) 不等于 5'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>not<span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>.toEqual() 会递归的检查对象所有属性和属性值是否相等</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// functions.js</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+            name<span class="token punctuation">:</span> <span class="token string">'LITANGHUI'</span><span class="token punctuation">,</span>
+            age<span class="token punctuation">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// functions.test.js</span>
+<span class="token keyword">import</span> functions <span class="token keyword">from</span> <span class="token string">'../src/functions'</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'getAuthor()返回的对象深度相等'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'getAuthor()返回的对象内存地址不同'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>not<span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>..toThrow</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// functions.test.js</span>
+<span class="token keyword">import</span> functions <span class="token keyword">from</span> <span class="token string">'../src/functions'</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'getIntArray(3.3)应该抛出错误'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 必须使用一个函数将将被测试的函数做一个包装 getIntArrayWrapFn()，否则会因为函数抛出导致该断言失败。</span>
+    <span class="token keyword">function</span> <span class="token function">getIntArrayWrapFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        functions<span class="token punctuation">.</span><span class="token function">getIntArray</span><span class="token punctuation">(</span><span class="token number">3.3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>getIntArrayWrapFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toThrow</span><span class="token punctuation">(</span><span class="token string">'&quot;getIntArray&quot;只接受整数类型的参数'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>.toMatch 传入一个正则表达式，它允许我们用来进行字符串类型的正则匹配。</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// functions.test.js</span>
+<span class="token keyword">import</span> functions <span class="token keyword">from</span> <span class="token string">'../src/functions'</span><span class="token punctuation">;</span>
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'getAuthor().name应该包含&quot;li&quot;这个姓氏'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>functions<span class="token punctuation">.</span><span class="token function">getAuthor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toMatch</span><span class="token punctuation">(</span><span class="token regex">/li/i</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>真假值</p> <ul><li>toBeNull：只匹配null</li> <li>toBeUndefined：只匹配undefined</li> <li>toBeDefined：与toBeUndefined相反</li> <li>toBeTruthy：匹配任何if语句为真</li> <li>toBeFalsy：匹配任何if语句为假</li></ul> <p>数字</p> <ul><li>toBe：=</li> <li>toEqual：=</li> <li>toBeGreaterThan：&gt;</li> <li>toBeGreaterThanOrEqual：≥</li> <li>toBeLessThan：&lt;</li> <li>toBeLessThanOrEqual：≤</li></ul> <p>字符串 -传入一个正则表达式，它允许我们用来进行字符串类型的正则匹配。</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'this is a joe in the sentence?'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token string">'this is joe'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toMatch</span><span class="token punctuation">(</span><span class="token regex">/joe/</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>数组<br>
+.toContain- 数组中是否包含匹配子项</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'the Array contains the item?'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'n'</span><span class="token punctuation">,</span> <span class="token string">'cc'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toContain</span><span class="token punctuation">(</span><span class="token string">'cc'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>常用总整理</p> <ul><li>toBe 使用 Object.is 判断是否严格相等。</li> <li>toEqual 递归检查对象或数组的每个字段。</li> <li>toBeNull 只匹配 null。</li> <li>toBeUndefined 只匹配 undefined。</li> <li>toBeDefined 只匹配非 undefined。</li> <li>toBeTruthy 只匹配真。</li> <li>toBeFalsy 只匹配假。</li> <li>toBeGreaterThan 实际值大于期望。</li> <li>toBeGreaterThanOrEqual 实际值大于或等于期望值</li> <li>toBeLessThan 实际值小于期望值。</li> <li>toBeLessThanOrEqual 实际值小于或等于期望值。</li> <li>toBeCloseTo 比较浮点数的值，避免误差。</li> <li>toMatch 正则匹配。</li> <li>toContain 判断数组中是否包含指定项。</li> <li>toHaveProperty(keyPath, value) 判断对象中是否包含指定属性。</li> <li>toThrow 判断是否抛出指定的异常。</li> <li>toBeInstanceOf 判断对象是否是某个类的实例，底层使用 instanceof。</li></ul> <h4 id="测试覆盖率"><a href="#测试覆盖率" aria-hidden="true" class="header-anchor">#</a> 测试覆盖率</h4> <p>直接在命令中添加 --coverage 参数，或者在 package.json 文件进行更详细的配置。在项目下生产一个 coverage 目录，内附一个测试覆盖率的报告。<br>
+运行 <code>jest --coverage</code> 可看到生产的报告里展示了代码的覆盖率和未测试的行数</p> <h4 id="mock"><a href="#mock" aria-hidden="true" class="header-anchor">#</a> Mock</h4> <p>Mock 函数提供的以下三种特性，jest.fn()、jest.spyOn()、jest.mock()，在我们写测试代码时十分有用：</p> <ul><li>捕获函数调用情况</li> <li>设置函数返回值</li> <li>改变函数的内部实现
+jest.fn()<br>
+不定义函数内部的实现，jest.fn() 会返回 undefined 作为返回值。</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'测试 jest.fn() 调用'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> mockFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token function">mockFn</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+    <span class="token comment">// 断言 mockFn 的执行后返回 undefined</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeUndefined</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 被调用</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>mockFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeCalled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 被调用了一次</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>mockFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeCalledTimes</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 传入的参数为1, 2, 3</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>mockFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalledWith</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">items<span class="token punctuation">,</span> callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> index <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> index <span class="token operator">&lt;</span> items<span class="token punctuation">.</span>length<span class="token punctuation">;</span> index<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">callback</span><span class="token punctuation">(</span>items<span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+ 
+<span class="token keyword">const</span> mockCallback <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> mockCallback<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">// 判断是否被执行两次</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>mockCallback<span class="token punctuation">.</span>mock<span class="token punctuation">.</span>calls<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">// 判断函数被首次执行的第一个形参为 0</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>mockCallback<span class="token punctuation">.</span>mock<span class="token punctuation">.</span>calls<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">// 判断函数第二次被执行的第一个形参为 1</span>
+<span class="token function">expect</span><span class="token punctuation">(</span>mockCallback<span class="token punctuation">.</span>mock<span class="token punctuation">.</span>calls<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>jest.fn() 定义函数</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'测试 jest.fn() 返回固定值'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> mockFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">mockReturnValue</span><span class="token punctuation">(</span><span class="token string">'default'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 执行后返回值为 default</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">mockFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'default'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+ 
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'测试 jest.fn() 内部实现'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> mockFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">num1<span class="token punctuation">,</span> num2</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> num1 <span class="token operator">*</span> num2<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token comment">// 断言 mockFn 执行后返回 100</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token function">mockFn</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+ 
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'测试 jest.fn() 返回 Promise'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> mockFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">mockResolvedValue</span><span class="token punctuation">(</span><span class="token string">'default'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">mockFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 通过 await 关键字执行后返回值为default</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'default'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 断言 mockFn 调用后返回的是 Promise 对象</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token function">mockFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">&quot;[object Promise]&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>实际应用</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// fetch.js</span>
+ 
+<span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">'axios'</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token keyword">async</span> <span class="token function">fetchPostsList</span><span class="token punctuation">(</span><span class="token parameter">callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'https://jsonplaceholder.typicode.com/posts'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">callback</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+ 
+<span class="token comment">// xxx.test.js</span>
+<span class="token keyword">import</span> fetch <span class="token keyword">from</span> <span class="token string">'../src/fetch.js'</span>
+     
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'fetchPostsList 中的回调函数应该能够被调用'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    expect<span class="token punctuation">.</span><span class="token function">assertions</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> mockFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">await</span> fetch<span class="token punctuation">.</span><span class="token function">fetchPostsList</span><span class="token punctuation">(</span>mockFn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+    <span class="token comment">// 断言 mockFn 被调用</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>mockFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBeCalled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>jest.mock()<br>
+events.js 引用同级下的 fetch.js</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// fetch.js</span>
+ 
+<span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">'axios'</span><span class="token punctuation">;</span>
+ 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token keyword">async</span> <span class="token function">fetchPostsList</span><span class="token punctuation">(</span><span class="token parameter">callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'https://jsonplaceholder.typicode.com/posts'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">callback</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code>
+<span class="token comment">// events.js</span>
+ 
+<span class="token keyword">import</span> fetch <span class="token keyword">from</span> <span class="token string">'./fetch'</span><span class="token punctuation">;</span>
+ 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token keyword">async</span> <span class="token function">getPostList</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> fetch<span class="token punctuation">.</span><span class="token function">fetchPostsList</span><span class="token punctuation">(</span><span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'fetchPostsList be called!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// do something</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code>
+<span class="token comment">// functions.test.js</span>
+ 
+<span class="token keyword">import</span> events <span class="token keyword">from</span> <span class="token string">'../src/events'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> fetch <span class="token keyword">from</span> <span class="token string">'../src/fetch'</span><span class="token punctuation">;</span>
+ 
+jest<span class="token punctuation">.</span><span class="token function">mock</span><span class="token punctuation">(</span><span class="token string">'../src/fetch.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'mock 整个 fetch.js 模块'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    expect<span class="token punctuation">.</span><span class="token function">assertions</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">await</span> events<span class="token punctuation">.</span><span class="token function">getPostList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>fetch<span class="token punctuation">.</span>fetchPostsList<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>fetch<span class="token punctuation">.</span>fetchPostsList<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalledTimes</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>调用了expect.assertions(2)，它能确保在异步的测试用例中，有一个断言会在回调函数中被执行。<br>
+jest.spyOn()</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// functions.test.js</span>
+ 
+<span class="token keyword">import</span> events <span class="token keyword">from</span> <span class="token string">'../src/events'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> fetch <span class="token keyword">from</span> <span class="token string">'../src/fetch'</span><span class="token punctuation">;</span>
+ 
+<span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'使用jest.spyOn()监控fetch.fetchPostsList被正常调用'</span><span class="token punctuation">,</span> <span class="token keyword">async</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    expect<span class="token punctuation">.</span><span class="token function">assertions</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> spyFn <span class="token operator">=</span> jest<span class="token punctuation">.</span><span class="token function">spyOn</span><span class="token punctuation">(</span>fetch<span class="token punctuation">,</span> <span class="token string">'fetchPostsList'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">await</span> events<span class="token punctuation">.</span><span class="token function">getPostList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>spyFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>spyFn<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toHaveBeenCalledTimes</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="tip custom-block"><p>通过 jest.spyOn()，fetchPostsList 被正常的执行了（可印出 fetchPostsList 的 console）。</p></div> <p>jest.fn() 常被用来进行某些有回调函数的测试；jest.mock() 可以 mock 整个模块中的方法，当某个模块已经被单元测试 100% 覆盖时，使用 jest.mock() 去 mock 该模块，节约测试时间和测试的冗余度是十分必要；当需要测试某些必须被完整执行的方法时，常常需要使用 jest.spyOn()</p> <h2 id="bdd-测试"><a href="#bdd-测试" aria-hidden="true" class="header-anchor">#</a> BDD 测试</h2> <p>大家可能会想，有了单元测试，为何还需要 BDD 测试呢？BDD 主要是用来作验收测试，目的是缩短业务人员和开发之间的距离，让开发更高效。自动化也是高效的一个重要环节。</p> <p>说明 BDD（Behavior Driven Development，行为驱动开发）前,我们先提端到端测试，简称 E2E（End-To-End test）测试，端到端测试将尽可能从使用者的视角，对真实系统的访问行为进行模拟。而 BDD 便是涵盖 E2E 所进行开发思维。</p> <h4 id="bdd（behavior-driven-development-行为驱动开发）"><a href="#bdd（behavior-driven-development-行为驱动开发）" aria-hidden="true" class="header-anchor">#</a> BDD（Behavior Driven Development 行为驱动开发）</h4> <ul><li>思路：与利益相关者（简单说就是客户）的讨论，取得对预期的软件行为的认识，其重点在于沟通</li> <li>过程：
+<ol><li>从业务的角度定义具体的，以及可衡量的目标</li> <li>找到一种可以达到设定目标的、对业务最重要的那些功能的方法</li> <li>然后像故事一样描述出一个个具体可执行的行为。其描述方法基于一些通用词汇，这些词汇具有准确无误的表达能力和一致的含义。例如，expect, should, assert</li> <li>寻找合适语言及方法，对行为进行实现</li> <li>测试人员检验产品运行结果是否符合预期行为。最大程度的交付出符合用户期望的产品，避免表达不一致带来的问题</li></ol></li></ul> <h5 id="先写出业务共识下的使用者用例："><a href="#先写出业务共识下的使用者用例：" aria-hidden="true" class="header-anchor">#</a> 先写出业务共识下的使用者用例：</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>Feature: A reader can share an article to social networks
+  As a reader
+  I want to share articles
+  So that I can notify my friends about an article I liked
+  Scenario: An article was opened
+    Given I'm inside an article
+    When I share the article
+    Then the article should change to a &quot;shared&quot; state
+ 
+ 
+特性：读者可以在社交平台上分享一篇文章
+  作为一名读者
+  我想要分享文章
+  这样我的朋友就知道我喜欢哪篇文章
+  场景：打开一篇文章的链接
+    假设我正在浏览这篇文章
+    当我分享这篇文章后
+    该文章变成&quot;分享&quot; 状态
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h5 id="再完成测试程式码："><a href="#再完成测试程式码：" aria-hidden="true" class="header-anchor">#</a> 再完成测试程式码：</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// features/stepdefinitions/like-article.steps.js</span>
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">Given</span><span class="token punctuation">(</span><span class="token regex">/^I'm inside an article$/</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 功能测试代码</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">When</span><span class="token punctuation">(</span><span class="token regex">/^I share the article$/</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 功能测试代码</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">Then</span><span class="token punctuation">(</span><span class="token regex">/^the article should change to a &quot;shared&quot; state$/</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">callback</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    
+        <span class="token comment">// 功能测试代码</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>主要区别就是在于测试的描述上，BDD 使用一种更通俗易懂的文字来描述测试用例。可参考使用者故事<br>
+我们在单元测试里我们提及到了 BDD，我们知道 BDD 使用一种更通俗易懂的文字来描述测试用例。通过 BDD 能够很方便让项目成员和业务干系人非常顺畅的沟通需求，即使这些成员不懂的任何编程语言。</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>// 英文 （不可中英混用）
+ 
+Feature: Transferring money between accounts
+  In order to manage my money more efficiently
+  As a bank client
+  I want to transfer funds between my accounts whenever I need to
+  Scenario: Transferring money to a savings account
+    Given my Current account has a balance of 1000.00
+    And my Savings account has a balance of 2000.00
+    When I transfer 500.00 from my Current account to my Savings account
+    Then I should have 500.00 in my Current account
+    And I should have 2500.00 in my Savings account
+  Scenario: Transferring with insufficient funds
+    Given my Current account has a balance of 1000.00
+    And my Savings account has a balance of 2000.00
+    When I transfer 1500.00 from my Current account to my Savings account
+    Then I should receive an &quot;insufficient funds&quot; error
+    Then I should have 1000.00 in my Current account
+    And I should have 2000.00 in my Savings account
+// 中文 （不可中英混用）
+# language: zh-CN
+功能: 多个 github 仓库查看
+作为一个 github 使用者
+我想已帐号密码登入 github
+查看已订阅的不同用户 github 仓库
+ 
+  场景: 订阅多个 github 仓库
+    假如 认证用户登录
+    当 订阅不同用户下的 github 仓库:
+      | owner        | project |
+      | imtesteruser | abc     |
+      | cuketest     | demos   |
+    那么 订阅列表中应该包含这些项目
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><h4 id="bdd-框架"><a href="#bdd-框架" aria-hidden="true" class="header-anchor">#</a> BDD 框架</h4> <p>BDD 框架对比: Cucumber.js vs Robot Framework vs Gauge.js
+<a data-fancybox="" title="TEST" href="/standard/TEST/TEST6.jpg"><img src="/standard/TEST/TEST6.jpg" alt="TEST.png" title="TEST"></a>
+选用 Cucumber 原因：</p> <ul><li>使用自然语言，更易读</li> <li>支持表格参数</li> <li>支持多种格式的 Report：html、junit etc.</li> <li>支持 javascript 语言</li> <li>支持四种状态的测试步骤：Passed、Failed、Skipped、Pending</li> <li>支持使用变形器消除重复</li></ul> <div class="language-text line-numbers-mode"><pre class="language-text"><code>// 中文 （不可中英混用）
+ 
+# language: zh-CN
+功能: 失败的登录
+  场景大纲: 失败的登录
+    假设 我在网站的首页
+    当 输入用户名 &lt;用户名&gt;
+    当 输入密码 &lt;密码&gt;
+    当 提交登录信息
+    那么 页面应该返回 &quot;Error Page&quot;
+ 
+    例子:
+    |用户名 |密码 |
+    |'Jan1' |'password'|
+    |'Jan2' |'password'|
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> defineSupportCode <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'cucumber'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>defineSupportCode
+<span class="token keyword">const</span> expect <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'chai'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>expect
+<span class="token function">defineSupportCode</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>Given<span class="token punctuation">,</span> When<span class="token punctuation">,</span> Then<span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">Given</span><span class="token punctuation">(</span><span class="token string">'我在网站的首页'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://0.0.0.0:7272/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">When</span><span class="token punctuation">(</span><span class="token string">'输入用户名 {string}'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">text</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>By<span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">'username_field'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">When</span><span class="token punctuation">(</span><span class="token string">'输入密码 {string}'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">text</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>By<span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">'password_field'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">When</span><span class="token punctuation">(</span><span class="token string">'提交登录信息'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>By<span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">'login_button'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">Then</span><span class="token punctuation">(</span><span class="token string">'页面应该返回 {string}'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>driver<span class="token punctuation">.</span><span class="token function">getTitle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">title</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">expect</span><span class="token punctuation">(</span>title<span class="token punctuation">)</span><span class="token punctuation">.</span>to<span class="token punctuation">.</span><span class="token function">equal</span><span class="token punctuation">(</span>string<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h4 id="robot-framework"><a href="#robot-framework" aria-hidden="true" class="header-anchor">#</a> Robot Framework</h4> <h5 id="dsl-code-examples"><a href="#dsl-code-examples" aria-hidden="true" class="header-anchor">#</a> DSL Code Examples</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>*** Settings ***
+Documentation     登录测试 2
+...
+Suite Setup       打开浏览器到登录页1
+Suite Teardown    Close Browser
+Test Setup        转到登录页
+Test Template     使用错误的失败凭据应该登录失败
+Resource          resource.robot
+
+*** Test Cases ***               USER NAME        PASSWORD
+无效的用户名                      invalid          ${VALID PASSWORD}
+无效的密码                        ${VALID USER}    invalid
+无效的用户名和密码                 invalid          whatever
+
+*** Keywords ***
+使用错误的失败凭据应该登录失败
+    [Arguments]    ${username}    ${password}
+    输入用户名    ${username}
+    输入密码    ${password}
+    提交登录信息
+    登录应该不成功
+
+登录应该不成功
+    Location Should Be    ${ERROR URL}
+    Title Should Be    Error Page
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h5 id="step-code-examples"><a href="#step-code-examples" aria-hidden="true" class="header-anchor">#</a> Step Code Examples</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>打开浏览器到登录页
+    Open Browser    ${LOGIN URL}    ${BROWSER}
+    Maximize Browser Window
+    Set Selenium Speed    ${DELAY}
+    Login Page Should Be Open
+
+Login Page Should Be Open
+    Title Should Be    Login Page
+
+转到登录页
+    Go To    ${LOGIN URL}
+    Login Page Should Be Open
+
+输入用户名
+    [Arguments]    ${username}
+    Input Text    username_field    ${username}
+
+输入密码
+    [Arguments]    ${password}
+    Input Text    password_field    ${password}
+
+提交登录信息
+    Click Button    login_button
+
+应该跳转到欢迎页
+    Location Should Be    ${WELCOME URL}
+    Title Should Be        Welcome Page
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><p>可执行的规格说明书这一理念 Cucumber 把需求规格说明书、自动化测试和在线文档合并成了一种格式 Gherkin<br>
+行为驱动开发（BDD）是一系列软件工程实践，它的设计目的是帮助团队更快地开发及交付更有价值的、质量更高的软件。从需求分析到生产环境中的代码开发，通过可执行规范与自动化测试支撑着整个流程。<br>
+BDD 实践者将具体的实例表述为可执行的场景，它使用一种半结构化的格式“given……when……then”，这种格式对于干系人与团队成员来说都很容易阅读。（但后来不再用此方法）<br>
+故事映射（Story Mapping）<br>
+DD、ATDD、实例化需求（Specification by Example）？<br>
+清晰的验收场景能够帮助我们理解要创建什么、不要创建什么，并且理解为什么这样选择。</p> <h4 id="bdd-report"><a href="#bdd-report" aria-hidden="true" class="header-anchor">#</a> BDD report</h4> <p>BDD 测试，BDD 的报表产出，格式为 JSON + XML ，为让更好阅读，藉由插件产出较好阅读的 HTML 格式。</p> <h5 id="✓-step1-安装-report-插件-cucumber-html-reporter"><a href="#✓-step1-安装-report-插件-cucumber-html-reporter" aria-hidden="true" class="header-anchor">#</a> ✓ Step1 安装 report 插件 cucumber-html-reporter</h5> <p><a data-fancybox="" title="TEST" href="/standard/TEST/TEST11.jpg"><img src="/standard/TEST/TEST11.jpg" alt="TEST.png" title="TEST"></a></p> <h5 id="✓-step2-在根目录下建立-cucumble-html-reports-js，内容下"><a href="#✓-step2-在根目录下建立-cucumble-html-reports-js，内容下" aria-hidden="true" class="header-anchor">#</a> ✓ Step2 在根目录下建立 cucumble-html-reports.js，内容下</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> reporter <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'cucumber-html-reporter'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+	theme<span class="token punctuation">:</span> <span class="token string">'bootstrap'</span><span class="token punctuation">,</span>
+	jsonFile<span class="token punctuation">:</span> <span class="token string">'test/e2e/reports/cucumber.json'</span><span class="token punctuation">,</span>
+	output<span class="token punctuation">:</span> <span class="token string">'test/e2e/reports/cucumber_report.html'</span><span class="token punctuation">,</span>
+	reportSuiteAsScenarios<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+	launchReport<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+reporter<span class="token punctuation">.</span><span class="token function">generate</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h5 id="✓-step3-修改-package-json"><a href="#✓-step3-修改-package-json" aria-hidden="true" class="header-anchor">#</a> ✓ Step3 修改 package.json</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token string">&quot;scripts&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+	<span class="token string">&quot;e2e&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;node test/e2e/runner.js &amp;&amp; node ./cucumble-html-		reports.js&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h5 id="✓-step4-产出报表"><a href="#✓-step4-产出报表" aria-hidden="true" class="header-anchor">#</a> ✓ Step4 产出报表</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>npm run e2e
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="nightwatch"><a href="#nightwatch" aria-hidden="true" class="header-anchor">#</a> Nightwatch</h4> <p>Vue-Cli 里为我们准备了一个当下很流行的 E2E 测试框架 - Nightwatch，使用 Selenium WebDriver API 以将 Web 应用测试自动化</p> <h5 id="vue-cli-下的-nightwatch"><a href="#vue-cli-下的-nightwatch" aria-hidden="true" class="header-anchor">#</a> Vue-Cli 下的 Nightwatch</h5> <p><a data-fancybox="" title="TEST" href="/standard/TEST/TEST7.jpg"><img src="/standard/TEST/TEST7.jpg" alt="TEST.png" title="TEST"></a>
+▵ Nightwatch 具体的工作流程</p> <h5 id="vue-lic-下-nightwatch-的文档结构"><a href="#vue-lic-下-nightwatch-的文档结构" aria-hidden="true" class="header-anchor">#</a> vue-lic 下 Nightwatch 的文档结构</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>└── test
+    └── e2e
+        ├── custom-assertions // 自定义断言
+        │   └── elementCount.js
+        ├── page-objects // 页面对象文件夹
+        ├── reports // 输出报表文件夹
+        ├── screenshots // 自动截屏
+        ├── nightwatch.conf.js // nightwatch 运行配置
+        ├── runner.js // 运行器
+        └── specs // 测试文件
+            └── test.spec.js
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h5 id="nightwatch-配置"><a href="#nightwatch-配置" aria-hidden="true" class="header-anchor">#</a> Nightwatch 配置</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'babel-register'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> config <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../../config'</span><span class="token punctuation">)</span>
+ 
+<span class="token comment">// http://nightwatchjs.org/gettingstarted#settings-file</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// == 基本配置 == //</span>
+  src_folders<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'test/e2e/specs'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token comment">// BDD 測試文件位置</span>
+  output_folder<span class="token punctuation">:</span> <span class="token string">'test/e2e/reports'</span><span class="token punctuation">,</span>  <span class="token comment">// report 放置位置</span>
+  custom_assertions_path<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'test/e2e/custom-assertions'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token comment">// 自制断言位置</span>
+ 
+  <span class="token comment">// == Selenium 配置 ==  //</span>
+  selenium<span class="token punctuation">:</span> <span class="token punctuation">{</span>  <span class="token comment">// selenium 服务器配置</span>
+    start_process<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">// 配置是否自动管理 selenium 进程</span>
+    server_path<span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'selenium-server'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>path<span class="token punctuation">,</span>  <span class="token comment">// 运行文件目录</span>
+    host<span class="token punctuation">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span>
+    port<span class="token punctuation">:</span> <span class="token number">4444</span><span class="token punctuation">,</span>
+    cli_args<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">'webdriver.chrome.driver'</span><span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'chromedriver'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>path
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   
+  <span class="token comment">// == 测试环境配置 == //   </span>
+  test_settings<span class="token punctuation">:</span> <span class="token punctuation">{</span>  <span class="token comment">// 测试配置</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      selenium_port<span class="token punctuation">:</span> <span class="token number">4444</span><span class="token punctuation">,</span>
+      selenium_host<span class="token punctuation">:</span> <span class="token string">'localhost'</span><span class="token punctuation">,</span>
+      silent<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      globals<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        devServerURL<span class="token punctuation">:</span> <span class="token string">'http://localhost:'</span> <span class="token operator">+</span> <span class="token punctuation">(</span>process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">PORT</span> <span class="token operator">||</span> config<span class="token punctuation">.</span>dev<span class="token punctuation">.</span>port<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+ 
+    chrome<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      desiredCapabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        browserName<span class="token punctuation">:</span> <span class="token string">'chrome'</span><span class="token punctuation">,</span>
+        javascriptEnabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        acceptSslCerts<span class="token punctuation">:</span> <span class="token boolean">true</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+ 
+    firefox<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      desiredCapabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        browserName<span class="token punctuation">:</span> <span class="token string">'firefox'</span><span class="token punctuation">,</span>
+        javascriptEnabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        acceptSslCerts<span class="token punctuation">:</span> <span class="token boolean">true</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br></div></div><div class="tip custom-block"><p>以上配置分三大类</p> <ul><li>基本配置；</li> <li>Selenium 配置；</li> <li>测试环境配置。</li></ul></div> <p><a data-fancybox="" title="TEST" href="/standard/TEST/TEST8.jpg"><img src="/standard/TEST/TEST8.jpg" alt="TEST.png" title="TEST"></a>
+Nightwatch 配置参数说明
+<a data-fancybox="" title="TEST" href="/standard/TEST/TEST9.jpg"><img src="/standard/TEST/TEST9.jpg" alt="TEST.png" title="TEST"></a>
+Selenium 配置参数说明
+<a data-fancybox="" title="TEST" href="/standard/TEST/TEST10.jpg"><img src="/standard/TEST/TEST10.jpg" alt="TEST.png" title="TEST"></a>
+测试环境 配置参数说明</p> <h5 id="加入-cucumber-框架"><a href="#加入-cucumber-框架" aria-hidden="true" class="header-anchor">#</a> 加入 Cucumber 框架</h5> <p>Nightwatch 具有很好的扩展性与兼容性，能集成最正统的 BDD 测试框架 Cucumber ，为让 nightwatch 可以配合 cucumber 使用，这里用上 nightwatch-cucumber 插件，(现已不再维护)。</p> <h6 id="安装插件"><a href="#安装插件" aria-hidden="true" class="header-anchor">#</a> 安装插件</h6> <div class="language-text line-numbers-mode"><pre class="language-text"><code>npm i nightwatch-cucumber cucumber geckodriver cucumber-pretty nightwatch-helpers -D
+or
+yarn add nightwatch-cucumber cucumber geckodriver cucumber-pretty nightwatch-helpers --dev
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h5 id="nightwatch-conf-js-配置"><a href="#nightwatch-conf-js-配置" aria-hidden="true" class="header-anchor">#</a> nightwatch.conf.js 配置</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'babel-register'</span><span class="token punctuation">)</span>
+<span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'nightwatch-cucumber'</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token comment">// cucumber 参数</span>
+    cucumberArgs<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token string">'--require'</span><span class="token punctuation">,</span>
+        <span class="token string">'test/e2e/features/step_definitions'</span><span class="token punctuation">,</span>
+        <span class="token string">'--format'</span><span class="token punctuation">,</span>
+        <span class="token string">'node_modules/cucumber-pretty'</span><span class="token punctuation">,</span>
+        <span class="token string">'--format'</span><span class="token punctuation">,</span>
+        <span class="token string">'json:test/e2e/reports/cucumber.json'</span><span class="token punctuation">,</span>
+        <span class="token string">'test/e2e/features'</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> seleniumServer <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'selenium-server'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> chromedriver <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'chromedriver'</span><span class="token punctuation">)</span> <span class="token comment">// chrome</span>
+<span class="token keyword">const</span> geckodriver <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'geckodriver'</span><span class="token punctuation">)</span> <span class="token comment">// firefox</span>
+<span class="token keyword">const</span> config <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'../../config'</span><span class="token punctuation">)</span> <span class="token comment">// http://nightwatchjs.org/gettingstarted#settings-file</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    src_folders<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'test/e2e/features/step_definitions'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    output_folder<span class="token punctuation">:</span> <span class="token string">'test/e2e/reports'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 加入 尤大的扩展 API</span>
+    custom_commands_path<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'./node_modules/nightwatch-helpers/commands'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    custom_assertions_path<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'./node_modules/nightwatch-helpers/assertions'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    selenium<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        start_process<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        server_path<span class="token punctuation">:</span> seleniumServer<span class="token punctuation">.</span>path<span class="token punctuation">,</span>
+        host<span class="token punctuation">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span>
+        port<span class="token punctuation">:</span> <span class="token number">4444</span><span class="token punctuation">,</span>
+        cli_args<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">'webdriver.chrome.driver'</span><span class="token punctuation">:</span> chromedriver<span class="token punctuation">.</span>path
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    test_settings<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            selenium_port<span class="token punctuation">:</span> <span class="token number">4444</span><span class="token punctuation">,</span>
+            selenium_host<span class="token punctuation">:</span> <span class="token string">'localhost'</span><span class="token punctuation">,</span>
+            silent<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            globals<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                devServerURL<span class="token punctuation">:</span> <span class="token string">'http://localhost:'</span> <span class="token operator">+</span> <span class="token punctuation">(</span>process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">PORT</span> <span class="token operator">||</span> config<span class="token punctuation">.</span>dev<span class="token punctuation">.</span>port<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            desiredCapabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                browserName<span class="token punctuation">:</span> <span class="token string">'chrome'</span><span class="token punctuation">,</span>
+                javascriptEnabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                acceptSslCerts<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                chromeOptions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    args<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'incognito'</span><span class="token punctuation">,</span> <span class="token string">'headless'</span><span class="token punctuation">,</span> <span class="token string">'no-sandbox'</span><span class="token punctuation">,</span> <span class="token string">'disable-gpu'</span><span class="token punctuation">]</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            selenium<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                cli_args<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">'webdriver.chrome.driver'</span><span class="token punctuation">:</span> chromedriver<span class="token punctuation">.</span>path
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        chrome<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            desiredCapabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                browserName<span class="token punctuation">:</span> <span class="token string">'chrome'</span><span class="token punctuation">,</span>
+                javascriptEnabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                acceptSslCerts<span class="token punctuation">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            selenium<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                cli_args<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">'webdriver.chrome.driver'</span><span class="token punctuation">:</span> chromedriver<span class="token punctuation">.</span>path
+                <span class="token punctuation">}</span>  
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        firefox<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            desiredCapabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                browserName<span class="token punctuation">:</span> <span class="token string">'firefox'</span><span class="token punctuation">,</span>
+                javascriptEnabled<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+                acceptSslCerts<span class="token punctuation">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            selenium<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            cli_args<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">'webdriver.gecko.driver'</span><span class="token punctuation">:</span> geckodriver<span class="token punctuation">.</span>path
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br></div></div><h5 id="建立-feature-架构"><a href="#建立-feature-架构" aria-hidden="true" class="header-anchor">#</a> 建立 feature 架构</h5> <div class="language-text line-numbers-mode"><pre class="language-text"><code>├── features // cucumber
+│ ├── step_definitions // cucumber
+│ └── support // cucumber
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="覆盖率"><a href="#覆盖率" aria-hidden="true" class="header-anchor">#</a> 覆盖率</h4> <p>单元测试覆盖率(code coverage)
+<a data-fancybox="" title="TEST" href="/standard/TEST/TEST12.jpg"><img src="/standard/TEST/TEST12.jpg" alt="TEST.png" title="TEST"></a></p> <ul><li>语句覆盖率（statement coverage）：是否每个语句都执行了</li> <li>分支覆盖率（branch coverage）：是否每个 if 代码块都执行了</li> <li>函数覆盖率（function coverage）：是否每个函数都调用了</li> <li>行覆盖率（line coverage）：是否每一行都执行了</li></ul> <h5 id="sonarqube-report"><a href="#sonarqube-report" aria-hidden="true" class="header-anchor">#</a> Sonarqube report</h5> <p>对代码库中的代码进行分析之前，我们需要搭建持续集成工具（如：Jenkins），并在工具中集成 SonarQube Scanners，根据持续集成工具设置的条件会自动触发拉取和 Build 代码，然后经过 SonarQube Scanners 分析并将分析报告发送到 SonarQube Server，SonarQube Server 对分析报告进行处理并保存到 SonarQube Database，同时可将分析报告发送给相关负责人进行 Review ，最终我们可以通过 UI 界面进行查看分析结果，开发人员对有问题的代码再次进行优化，如此循环。</p> <h6 id="✓-step1-在根目录建立-sonar-project-properties"><a href="#✓-step1-在根目录建立-sonar-project-properties" aria-hidden="true" class="header-anchor">#</a> ✓ Step1 在根目录建立 sonar-project.properties</h6> <div class="language-text line-numbers-mode"><pre class="language-text"><code>sonar.projectKey=javascript-prj
+sonar.projectName=JavaScript Demo Project
+sonar.projectVersion=1.0
+sonar.sources=src
+sonar.sourceEncoding=UTF-8
+sonar.host.url=http://10.211.62.227:9001
+# sonar.login=admin
+# sonar.password=admin
+sonar.language=js
+# sonar.modules=javascript-module
+#sonar.modules=java-module,javascript-module,html-module,css-module#设定unit test的code coverage的报告的路径
+#sonar.ts.coverage.lcovReportPath=&lt;lcov.info文件的路径&gt;
+#JS的code coverage report的属性
+sonar.javascript.lcov.reportPaths=./test/unit/coverage/lcov.info
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>如此在提交文件时，即会跑单元测试覆盖率审核与产出报表。</p></div> <!----> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2019-8-14 6:29:41 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/standard/GIT.html" class="prev">
+          git
+        </a></span> <span class="next"><a href="/standard/workflow.html">
+          工作流
+        </a>
+        →
+      </span></p></div> </main> <div class="valine-wrapper" data-v-355bf788><div id="valine" data-v-355bf788></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-f9458a92 data-v-f9458a92><i class="iconfont reco-up" data-v-f9458a92></i></div></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.8b298d71.js" defer></script><script src="/assets/js/3.1047f7fc.js" defer></script><script src="/assets/js/1.e9036eeb.js" defer></script><script src="/assets/js/30.9b5791ce.js" defer></script>
+  </body>
+</html>

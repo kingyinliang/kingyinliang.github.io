@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>小程序 | kingyingliang</title>
+    <meta name="description" content="kingyingliang的个人博客">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.2868158a.css" as="style"><link rel="preload" href="/assets/js/app.8b298d71.js" as="script"><link rel="preload" href="/assets/js/3.1047f7fc.js" as="script"><link rel="preload" href="/assets/js/1.e9036eeb.js" as="script"><link rel="preload" href="/assets/js/33.a52d22d8.js" as="script"><link rel="prefetch" href="/assets/js/10.faea7ed6.js"><link rel="prefetch" href="/assets/js/11.a1eb7cb1.js"><link rel="prefetch" href="/assets/js/12.a94480e8.js"><link rel="prefetch" href="/assets/js/13.78aa3210.js"><link rel="prefetch" href="/assets/js/14.873f66c8.js"><link rel="prefetch" href="/assets/js/15.90e4a351.js"><link rel="prefetch" href="/assets/js/16.e9797b58.js"><link rel="prefetch" href="/assets/js/17.ae73df78.js"><link rel="prefetch" href="/assets/js/18.63201470.js"><link rel="prefetch" href="/assets/js/19.74ca95e4.js"><link rel="prefetch" href="/assets/js/20.ca975c1c.js"><link rel="prefetch" href="/assets/js/21.03ae9a37.js"><link rel="prefetch" href="/assets/js/22.30d540c3.js"><link rel="prefetch" href="/assets/js/23.4c7ee792.js"><link rel="prefetch" href="/assets/js/24.c286385e.js"><link rel="prefetch" href="/assets/js/25.3dcf4fb6.js"><link rel="prefetch" href="/assets/js/26.136db144.js"><link rel="prefetch" href="/assets/js/27.7f89bba4.js"><link rel="prefetch" href="/assets/js/28.5f2690f1.js"><link rel="prefetch" href="/assets/js/29.e455dd30.js"><link rel="prefetch" href="/assets/js/30.9b5791ce.js"><link rel="prefetch" href="/assets/js/31.8bdbfc59.js"><link rel="prefetch" href="/assets/js/32.c6d259c7.js"><link rel="prefetch" href="/assets/js/34.4c6deef9.js"><link rel="prefetch" href="/assets/js/35.b974d0f2.js"><link rel="prefetch" href="/assets/js/36.75dbacb4.js"><link rel="prefetch" href="/assets/js/4.42ba4794.js"><link rel="prefetch" href="/assets/js/5.903262c0.js"><link rel="prefetch" href="/assets/js/6.029a538f.js"><link rel="prefetch" href="/assets/js/7.43e76bc3.js"><link rel="prefetch" href="/assets/js/8.cdc6e064.js"><link rel="prefetch" href="/assets/js/9.21bfb851.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2868158a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/favicon.png" alt="kingyingliang" class="logo"> <span class="site-name">kingyingliang</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/standard/HTML.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/standard/CSS.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/standard/JS.html" class="nav-link"><i class="iconfont undefined"></i>
+  JS
+</a></li><li class="dropdown-subitem"><a href="/standard/GIT.html" class="nav-link"><i class="iconfont undefined"></i>
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/standard/TEST.html" class="nav-link"><i class="iconfont undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/standard/workflow.html" class="nav-link"><i class="iconfont undefined"></i>
+  工作流
+</a></li><li class="dropdown-subitem"><a href="/standard/wepy.html" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  小程序
+</a></li></ul></li><li class="dropdown-item"><h4>技术</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Technology/Nuxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nuxt
+</a></li><li class="dropdown-subitem"><a href="/Technology/Nesxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nesxt微服务
+</a></li><li class="dropdown-subitem"><a href="/Technology/Node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node
+</a></li><li class="dropdown-subitem"><a href="/Technology/Koa/Koa.html" class="nav-link"><i class="iconfont undefined"></i>
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/Technology/React/React.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-subitem"><a href="/Technology/Express/Express.html" class="nav-link"><i class="iconfont undefined"></i>
+  Express
+</a></li><li class="dropdown-subitem"><a href="/Technology/Electron/Electron.html" class="nav-link"><i class="iconfont undefined"></i>
+  Electron
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      读书会
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/readingParty/reconsitution/" class="nav-link"><i class="iconfont undefined"></i>
+  重构
+</a></li><li class="dropdown-item"><!----> <a href="/readingParty/" class="nav-link"><i class="iconfont undefined"></i>
+  其他
+</a></li></ul></div></div><div class="nav-item"><a href="/share/" class="nav-link"><i class="iconfont reco-other"></i>
+  分享
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-three"></i>
+      其他
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/category/Tenchnology.html" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/kingyinliang" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-api"></i>
+      前端技术
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>规范</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/standard/HTML.html" class="nav-link"><i class="iconfont undefined"></i>
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/standard/CSS.html" class="nav-link"><i class="iconfont undefined"></i>
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/standard/JS.html" class="nav-link"><i class="iconfont undefined"></i>
+  JS
+</a></li><li class="dropdown-subitem"><a href="/standard/GIT.html" class="nav-link"><i class="iconfont undefined"></i>
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/standard/TEST.html" class="nav-link"><i class="iconfont undefined"></i>
+  测试
+</a></li><li class="dropdown-subitem"><a href="/standard/workflow.html" class="nav-link"><i class="iconfont undefined"></i>
+  工作流
+</a></li><li class="dropdown-subitem"><a href="/standard/wepy.html" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  小程序
+</a></li></ul></li><li class="dropdown-item"><h4>技术</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Technology/Nuxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nuxt
+</a></li><li class="dropdown-subitem"><a href="/Technology/Nesxt/" class="nav-link"><i class="iconfont undefined"></i>
+  Nesxt微服务
+</a></li><li class="dropdown-subitem"><a href="/Technology/Node/" class="nav-link"><i class="iconfont undefined"></i>
+  Node
+</a></li><li class="dropdown-subitem"><a href="/Technology/Koa/Koa.html" class="nav-link"><i class="iconfont undefined"></i>
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/Technology/React/React.html" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-subitem"><a href="/Technology/Express/Express.html" class="nav-link"><i class="iconfont undefined"></i>
+  Express
+</a></li><li class="dropdown-subitem"><a href="/Technology/Electron/Electron.html" class="nav-link"><i class="iconfont undefined"></i>
+  Electron
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      读书会
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/readingParty/reconsitution/" class="nav-link"><i class="iconfont undefined"></i>
+  重构
+</a></li><li class="dropdown-item"><!----> <a href="/readingParty/" class="nav-link"><i class="iconfont undefined"></i>
+  其他
+</a></li></ul></div></div><div class="nav-item"><a href="/share/" class="nav-link"><i class="iconfont reco-other"></i>
+  分享
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-three"></i>
+      其他
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></li><li class="dropdown-item"><!----> <a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></li><li class="dropdown-item"><!----> <a href="/category/Tenchnology.html" class="nav-link"><i class="iconfont reco-category"></i>
+  分类
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/kingyinliang" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/standard/HTML.html" class="sidebar-link">HTML</a></li><li><a href="/standard/CSS.html" class="sidebar-link">CSS</a></li><li><a href="/standard/JS.html" class="sidebar-link">JS</a></li><li><a href="/standard/GIT.html" class="sidebar-link">git</a></li><li><a href="/standard/TEST.html" class="sidebar-link">测试策略</a></li><li><a href="/standard/workflow.html" class="sidebar-link">工作流</a></li><li><a href="/standard/wepy.html" class="active sidebar-link">小程序</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/standard/wepy.html#wepy" class="sidebar-link">wepy</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/standard/wepy.html#快速入门" class="sidebar-link">快速入门</a></li><li class="sidebar-sub-header"><a href="/standard/wepy.html#问题收集与解决" class="sidebar-link">问题收集与解决</a></li></ul></li><li class="sidebar-sub-header"><a href="/standard/wepy.html#mpvue" class="sidebar-link">mpvue</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/standard/wepy.html#目录结构" class="sidebar-link">目录结构</a></li></ul></li></ul></li><li><a href="/standard/release.html" class="sidebar-link">发布规范</a></li><li><a href="/standard/npm.html" class="sidebar-link">NPM</a></li></ul> </aside> <div><main class="page reco-hide"> <div class="page-title"><h1>小程序</h1> <hr> <div data-v-cf5504f4><i class="iconfont reco-account" data-v-cf5504f4><span data-v-cf5504f4>kingyinliang</span></i> <i class="iconfont reco-date" data-v-cf5504f4><span data-v-cf5504f4>2018-12-22</span></i> <!----> <i class="iconfont reco-tag tags" data-v-cf5504f4><span class="tag-item" data-v-cf5504f4>
+      wepy
+    </span><span class="tag-item" data-v-cf5504f4>
+      mpvue
+    </span></i></div></div> <div class="content__default"><h2 id="wepy"><a href="#wepy" aria-hidden="true" class="header-anchor">#</a> wepy</h2> <h5 id="小程序框架-wepy-文档"><a href="#小程序框架-wepy-文档" aria-hidden="true" class="header-anchor">#</a> 小程序框架 wepy 文档</h5> <p><a href="https://github.com/Tencent/wepy" target="_blank" rel="noopener noreferrer">Github地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id="快速入门"><a href="#快速入门" aria-hidden="true" class="header-anchor">#</a> 快速入门</h3> <p>安装 wepy</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>npm install wepy-cli -g
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>在开发目录生成开发DEMO。</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>wepy new myproject
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>开发实时编译。</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>wepy build --watch
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>项目目录结构</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>dist
+   node_modules
+   src
+       components
+           com_a.wpy
+           com_b.wpy
+       pages
+           index.wpy
+           page2.wpy
+       app.wpy
+   package.json
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>代码规范：</p> <ol><li><p>变量与方法使用尽量使用驼峰式命名，避免使用 $ 开头。<br>
+以 $ 开头的方法或者属性为框架内建方法或者属性，可以被使用，使用前请参考API文档。</p></li> <li><p>入口，页面，组件的命名后缀为.wpy。外链的文件可以是其它后缀。<br>
+请参考wpy文件说明</p></li> <li><p>使用 ES6 语法开发。<br>
+框架在 ES6 下开发，因此也需要使用 ES6 开发小程序，ES6中有大量的语法糖可以让我们的代码更加简洁高效。</p></li> <li><p>使用 Promise<br>
+框架默认对小程序提供的 API 全都进行了 Promise 处理，甚至可以直接使用 async/await 等新特性进行开发。</p></li></ol> <h4 id="主要解决问题："><a href="#主要解决问题：" aria-hidden="true" class="header-anchor">#</a> 主要解决问题：</h4> <h5 id="_1-开发模式转换"><a href="#_1-开发模式转换" aria-hidden="true" class="header-anchor">#</a> 1. 开发模式转换</h5> <p>在原有的小程序的开发模式下进行再次封装，更贴近于现有 MVVM 框架开发模式。框架在开发过程中参考了一些现在框架的一些特性，并且融入其中，以下是使用 wepy 前后的代码对比图。<br>
+官方DEMO代码：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">//index.js</span>
+<span class="token comment">//获取应用实例</span>
+<span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token function">getApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">Page</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  data<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    motto<span class="token punctuation">:</span> <span class="token string">'Hello World'</span><span class="token punctuation">,</span>
+    userInfo<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//事件处理函数</span>
+  <span class="token function-variable function">bindViewTap</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'button clicked'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">onLoad</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'onLoad'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p>基于 wepy 的实现：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> wepy <span class="token keyword">from</span> <span class="token string">'wepy'</span><span class="token punctuation">;</span>
+ 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Index</span> <span class="token keyword">extends</span> <span class="token class-name">wepy<span class="token punctuation">.</span>page</span> <span class="token punctuation">{</span>
+ 
+    data <span class="token operator">=</span> <span class="token punctuation">{</span>
+        motto<span class="token punctuation">:</span> <span class="token string">'Hello World'</span><span class="token punctuation">,</span>
+        userInfo<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    methods <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token function">bindViewTap</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'button clicked'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token function">onLoad</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'onLoad'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h5 id="_2-支持组件化开发。"><a href="#_2-支持组件化开发。" aria-hidden="true" class="header-anchor">#</a> 2. 支持组件化开发。</h5> <p>参见章节：组件<br>
+示例代码：</p> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code>// index.wpy
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>pannel<span class="token punctuation">&quot;</span></span> <span class="token attr-name">path</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>pannel<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>counter1<span class="token punctuation">&quot;</span></span> <span class="token attr-name">path</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>counter<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>counter2<span class="token punctuation">&quot;</span></span> <span class="token attr-name">path</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>counter<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>component</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span> <span class="token attr-name">path</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>component</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> wepy <span class="token keyword">from</span> <span class="token string">'wepy'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> List <span class="token keyword">from</span> <span class="token string">'../components/list'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Panel <span class="token keyword">from</span> <span class="token string">'../components/panel'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Counter <span class="token keyword">from</span> <span class="token string">'../components/counter'</span><span class="token punctuation">;</span>
+ 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Index</span> <span class="token keyword">extends</span> <span class="token class-name">wepy<span class="token punctuation">.</span>page</span> <span class="token punctuation">{</span>
+ 
+    config <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;navigationBarTitleText&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;test&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    components <span class="token operator">=</span> <span class="token punctuation">{</span>
+        panel<span class="token punctuation">:</span> Panel<span class="token punctuation">,</span>
+        counter1<span class="token punctuation">:</span> Counter<span class="token punctuation">,</span>
+        counter2<span class="token punctuation">:</span> Counter<span class="token punctuation">,</span>
+        list<span class="token punctuation">:</span> List
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><h5 id="_3-单文件模式，使得目录结构更加清晰。"><a href="#_3-单文件模式，使得目录结构更加清晰。" aria-hidden="true" class="header-anchor">#</a> 3. 单文件模式，使得目录结构更加清晰。</h5> <p>官方目录结构要求app必须有三个文件 app.json，app.js，app.wxss，页面有4个文件 index.json，index.js，index.wxml，index.wxss。而且文件必须同名。<br>
+所以使用wepy开发前后开发目录对比如下：<br>
+官方DEMO：</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>project
+    pages
+        index
+            index.json
+            index.js
+            index.wxml
+            index.wxss
+        log
+            log.json
+            log.wxml
+            log.js
+            log.wxss
+    app.js
+    app.json
+    app.wxss
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>使用wepy框架后目录结构：</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>project
+    src
+        pages
+            index.wpy
+            log.wpy
+        app.wpy
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h5 id="_4-默认使用-babel-编译，支持-es6-7-的一些新特性。"><a href="#_4-默认使用-babel-编译，支持-es6-7-的一些新特性。" aria-hidden="true" class="header-anchor">#</a> 4. 默认使用 babel 编译，支持 ES6/7 的一些新特性。</h5> <p>用户可以通过修改 .wepyrc 配置文件，配置自己熟悉的babel环境进行开发。默认开启使用了一些新的特性如 promise，async/await 等等。<br>
+示例代码</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">import</span> wepy <span class="token keyword">from</span> <span class="token string">'wepy'</span><span class="token punctuation">;</span>
+ 
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Index</span> <span class="token keyword">extends</span> <span class="token class-name">wepy<span class="token punctuation">.</span>page</span> <span class="token punctuation">{</span>
+ 
+    <span class="token function">getData</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+                <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">{</span>data<span class="token punctuation">:</span> <span class="token number">123</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">async</span> <span class="token function">onLoad</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> data <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="问题收集与解决"><a href="#问题收集与解决" aria-hidden="true" class="header-anchor">#</a> 问题收集与解决</h3> <h5 id="_1-wepy-中使用-wx-if，只阻止视图渲染，不会阻止组件初始化。"><a href="#_1-wepy-中使用-wx-if，只阻止视图渲染，不会阻止组件初始化。" aria-hidden="true" class="header-anchor">#</a> 1. wepy 中使用 wx:if，只阻止视图渲染，不会阻止组件初始化。</h5> <h5 id="_2-图片引入正常-但是无缘无故报错问题"><a href="#_2-图片引入正常-但是无缘无故报错问题" aria-hidden="true" class="header-anchor">#</a> 2. 图片引入正常,但是无缘无故报错问题</h5> <p>原因：在于初始化的时候，变量还没渲染进去，导致src为错误的值。<br>
+解法：</p> <div class="language-text line-numbers-mode"><pre class="language-text"><code>&lt;image wx:if=&quot;{{postData.avatar}}&quot; class=&quot;avatar&quot; src=&quot;{{postData.avatar}}&quot;&gt;&lt;/image&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h5 id="_3-微信小程序界面跳转传-json-对象，出现-object-对象变字串。"><a href="#_3-微信小程序界面跳转传-json-对象，出现-object-对象变字串。" aria-hidden="true" class="header-anchor">#</a> 3. 微信小程序界面跳转传 json 对象，出现 object 对象变字串。</h5> <p>解法:<br>
+将 JSON 转成字符串传值 JSON.stringify(user);<br>
+将字符串转成对象接收 JSON.parse(options.userStr);</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>#传值 <span class="token function">js</span> <span class="token punctuation">(</span>母页面<span class="token punctuation">)</span>
+<span class="token function-variable function">personInfoAction</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> user <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>data<span class="token punctuation">.</span>user<span class="token punctuation">;</span>
+    <span class="token comment">//将json转成字符串</span>
+    <span class="token keyword">let</span> userStr<span class="token operator">=</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        wx<span class="token punctuation">.</span><span class="token function">navigateTo</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            url<span class="token punctuation">:</span> <span class="token string">'personInfo/index?userStr='</span><span class="token operator">+</span>userStr<span class="token punctuation">,</span>
+            <span class="token function-variable function">success</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// success</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        wx<span class="token punctuation">.</span><span class="token function">navigateTo</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            url<span class="token punctuation">:</span> <span class="token string">'login/index'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">success</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// success</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+ 
+ 
+# 接收 <span class="token function">js</span> <span class="token punctuation">(</span>目标页面<span class="token punctuation">)</span>
+<span class="token function-variable function">onLoad</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">options</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//将字符串转成json</span>
+    <span class="token keyword">let</span> user <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>options<span class="token punctuation">.</span>userStr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setData</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        userListInfo<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            title<span class="token punctuation">:</span> <span class="token string">'头像'</span><span class="token punctuation">,</span>
+            subTitle<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+            icon<span class="token punctuation">:</span><span class="token string">'../../../images/icon_img_tx.png'</span><span class="token punctuation">,</span><span class="token comment">//user.avatar,</span>
+            hasIcon<span class="token punctuation">:</span><span class="token boolean">true</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+            title<span class="token punctuation">:</span> <span class="token string">'昵称'</span><span class="token punctuation">,</span>
+            subTitle<span class="token punctuation">:</span> user<span class="token punctuation">.</span>nickname<span class="token punctuation">,</span>
+            icon<span class="token punctuation">:</span><span class="token string">''</span><span class="token punctuation">,</span>
+            hasIcon<span class="token punctuation">:</span><span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            title<span class="token punctuation">:</span> <span class="token string">'手机号'</span><span class="token punctuation">,</span>
+            subTitle<span class="token punctuation">:</span> user<span class="token punctuation">.</span>phone<span class="token punctuation">,</span>
+            icon<span class="token punctuation">:</span><span class="token string">''</span><span class="token punctuation">,</span>
+            hasIcon<span class="token punctuation">:</span><span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            title<span class="token punctuation">:</span> <span class="token string">'实名认证'</span><span class="token punctuation">,</span>
+            subTitle<span class="token punctuation">:</span> user<span class="token punctuation">.</span>truename<span class="token punctuation">,</span>
+            icon<span class="token punctuation">:</span><span class="token string">''</span><span class="token punctuation">,</span>
+            hasIcon<span class="token punctuation">:</span><span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br></div></div><h5 id="_4-this-parent-更改没反应"><a href="#_4-this-parent-更改没反应" aria-hidden="true" class="header-anchor">#</a> 4. this.$parent 更改没反应</h5> <p>需要多加</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">this</span><span class="token punctuation">.</span>$parent<span class="token punctuation">.</span><span class="token function">$apply</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h5 id="_5-component-可以使用-parent-的-usingcomponents-，若是跳转的页面及无法。"><a href="#_5-component-可以使用-parent-的-usingcomponents-，若是跳转的页面及无法。" aria-hidden="true" class="header-anchor">#</a> 5. component 可以使用 parent 的 usingComponents ，若是跳转的页面及无法。</h5> <h5 id="_6-若-onload-因为是组件在进画面时已被加载，可加入-this-apply-帮助进画面时重新渲染"><a href="#_6-若-onload-因为是组件在进画面时已被加载，可加入-this-apply-帮助进画面时重新渲染" aria-hidden="true" class="header-anchor">#</a> 6. 若 onLoad() 因为是组件在进画面时已被加载，可加入 this.$apply() 帮助进画面时重新渲染</h5> <h5 id="_7-微信小程序的网络请求必须走-https-协议，就是说微信小程序一定要通过-https-加密。"><a href="#_7-微信小程序的网络请求必须走-https-协议，就是说微信小程序一定要通过-https-加密。" aria-hidden="true" class="header-anchor">#</a> 7. 微信小程序的网络请求必须走 Https 协议，就是说微信小程序一定要通过 HTTPS 加密。</h5> <h5 id="_8-page-呼叫-global-this-parent"><a href="#_8-page-呼叫-global-this-parent" aria-hidden="true" class="header-anchor">#</a> 8. page 呼叫 global =&gt; this.$parent;</h5> <h5 id="_9-page里的子组件呼叫-global-this-root-parent"><a href="#_9-page里的子组件呼叫-global-this-root-parent" aria-hidden="true" class="header-anchor">#</a> 9. page里的子组件呼叫 global =&gt; this.$root.$parent;</h5> <h5 id="_10-价钱的加减乘除会有出现浮点数，如-12-0000000000001"><a href="#_10-价钱的加减乘除会有出现浮点数，如-12-0000000000001" aria-hidden="true" class="header-anchor">#</a> 10. 价钱的加减乘除会有出现浮点数，如 12.0000000000001</h5> <p>解法:
+<a href="https://blog.csdn.net/helloxiaoliang/article/details/72723387" target="_blank" rel="noopener noreferrer">浮点数计算 bug<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://blog.csdn.net/chy555chy/article/details/62886715" target="_blank" rel="noopener noreferrer">JavaScript 数字前补“0”的五种方法<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h5 id="_11-如何让小程序有类似-cookie-功能"><a href="#_11-如何让小程序有类似-cookie-功能" aria-hidden="true" class="header-anchor">#</a> 11. 如何让小程序有类似 cookie 功能</h5> <p>解法:<br> <a href="https://www.csweigou.com/article/2143.html" target="_blank" rel="noopener noreferrer">仿 cookie<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h5 id="_12-抓取-目标-dom"><a href="#_12-抓取-目标-dom" aria-hidden="true" class="header-anchor">#</a> 12. 抓取 目标 DOM</h5> <div class="language-js line-numbers-mode"><pre class="language-js"><code>that<span class="token punctuation">.</span><span class="token function">$apply</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> query <span class="token operator">=</span> wx<span class="token punctuation">.</span><span class="token function">createSelectorQuery</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+query<span class="token punctuation">.</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token string">'.aslide-item-info'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">boundingClientRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+query<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+that<span class="token punctuation">.</span>boxHeight <span class="token operator">=</span> res<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>height<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h5 id="_13-textarea-高度永远最高，且卷动时会出现异常，此部份尚无解，仅能用条件判断避开"><a href="#_13-textarea-高度永远最高，且卷动时会出现异常，此部份尚无解，仅能用条件判断避开" aria-hidden="true" class="header-anchor">#</a> 13. textarea 高度永远最高，且卷动时会出现异常，此部份尚无解，仅能用条件判断避开</h5> <p>解法:<br> <a href="http://www.wxapp-union.com/forum.php?mod=viewthread&amp;tid=3270" target="_blank" rel="noopener noreferrer">textarea 坑<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+当前小程序作法：</p> <ol><li>上方有物件时,让文字区块隐藏，如优惠券浮窗</li> <li>卷动时文字停留 bug ，做一个伪文字区块(以 view 模拟)，编辑时点击伪文字区块，换成 该 textarea，unfocus 或卷动视窗时，又切回伪文字区块，并将编辑内容放入。</li></ol> <h2 id="mpvue"><a href="#mpvue" aria-hidden="true" class="header-anchor">#</a> mpvue</h2> <h3 id="目录结构"><a href="#目录结构" aria-hidden="true" class="header-anchor">#</a> 目录结构</h3> <div class="language-text line-numbers-mode"><pre class="language-text"><code>project-name
+ ┣ build  // webpack 配置
+ ┣ config // html 2 wxml， wxss 2 css 等配置
+ ┣ dist // 输出小程序用的 wxml 等文件
+ ┣ node_modules
+ ┣ src
+ ┃ ┣ components // 组件
+ ┃ ┣ assets // 图片
+ ┃ ┣ pages // 页面
+ ┃ ┃ ┣ counter // vuex 示例
+ ┃ ┃ ┃ ┣ index.vue
+ ┃ ┃ ┃ ┣ main.js
+ ┃ ┃ ┃ ┗ store.js
+ ┃ ┃ ┣ index // 普通示例页面
+ ┃ ┃ ┃ ┣ index.vue
+ ┃ ┃ ┃ ┗ main.js
+ ┃ ┃ ┗ logs // 普通示例页面
+ ┃ ┃ ┃ ┣ index.vue
+ ┃ ┃ ┃ ┣ main.js
+ ┃ ┃ ┃ ┗ main.json
+ ┃ ┣ styles // stylus 基础文件
+ ┃ ┃ ┣ base.styl // 全局公共 class
+ ┃ ┃ ┣ iconfont.styl // 字体图标
+ ┃ ┃ ┣ reset.styl // 重置默认样式
+ ┃ ┃ ┗ variable.styl // 样式变量
+ ┃ ┣ utils
+ ┃ ┃ ┣ index.js
+ ┃ ┃ ┣ request.js // wx.request 二次封装
+ ┃ ┃ ┣ static.js // 静态变量配置
+ ┃ ┃ ┗ toast.js // 简化 wx 弹框
+ ┃ ┣ app.json // 页面配置
+ ┃ ┣ App.vue // 全局入口文件
+ ┃ ┗ main.js
+ ┣ static
+ ┣ tes
+ ┃ ┣ e2e
+ ┃ ┣ unit
+ ┃ ┗ mock // mock 数据
+ ┣ .editorconfig
+ ┣ .eslintignore
+ ┣ .eslintrc.js
+ ┣ .gitignore
+ ┣ index.html
+ ┣ package.json
+ ┣ package.swan.json
+ ┣ project.config.json
+ ┗ README.md
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br></div></div><h4 id="特性"><a href="#特性" aria-hidden="true" class="header-anchor">#</a> 特性</h4> <p>以 mpvue 为基础架构,支持 vue 的大部分功能. 开发上与 vue 有少许差异，参考 mpvue使用手册.</p> <h4 id="极速开发体验"><a href="#极速开发体验" aria-hidden="true" class="header-anchor">#</a> 极速开发体验</h4> <p>渲染一个列表只需要几行熟悉的代码</p> <div class="language-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>pug<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+div.container
+  div(v-for=&quot;(item,i) in list&quot; :key=&quot;i&quot;)
+    span {{item.name}}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+mounted () {
+  const result = await this.$get('api/list');
+  this.list = result;
+}
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylus<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+$mainColor = #ababab
+.container
+  color $mainColor
+  div
+    border 1rpx solid $mainColor
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div></div> <!----> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2019-8-14 6:29:41 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/standard/workflow.html" class="prev">
+          工作流
+        </a></span> <span class="next"><a href="/standard/release.html">
+          发布规范
+        </a>
+        →
+      </span></p></div> </main> <div class="valine-wrapper" data-v-355bf788><div id="valine" data-v-355bf788></div></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-f9458a92 data-v-f9458a92><i class="iconfont reco-up" data-v-f9458a92></i></div></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.8b298d71.js" defer></script><script src="/assets/js/3.1047f7fc.js" defer></script><script src="/assets/js/1.e9036eeb.js" defer></script><script src="/assets/js/33.a52d22d8.js" defer></script>
+  </body>
+</html>
